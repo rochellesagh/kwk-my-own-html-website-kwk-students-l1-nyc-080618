@@ -91,10 +91,26 @@ $(document).ready(function(){
 
 <p>Hope's favorite places are New York, Florida, and New Jersey.</p>
 
-<button id="hide">Hide</button>
-<button id="show">Favorite Places</button>
+<button id="hide">Hide Hope's Favorite Places</button>
+<button id="show"> Show Hope's Favorite Places</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+</script>
 
 
+<p>Hope's favorite foods are Sushi, French Fries, and Popcorn. </p>
+
+<button id="hide">Hide Hope's Favorite Foods</button>
+<button id="show">Show Hope's Favorite Foods</button>
 
 
 <!--<p>Click for more information on Hope:</p>-->
