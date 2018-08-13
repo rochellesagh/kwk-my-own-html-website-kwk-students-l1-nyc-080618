@@ -37,13 +37,28 @@
 /*.button4 {background-color: #e7e7e7; color: black;} */
 /*.button5 {background-color: #555555;} */
 
-<style>
+
 li {
     display: inline;
 }
-</style>
 
+.buttonstyle{
+  color:green;
+  font-size:100%;
+  background-color:yellow;
+}
 
+.buttonstyles{
+  color:purple;
+  font-size:100%;
+  background-color:pink;
+}
+
+.buttonstyles2{
+  color:orange;
+  font-size:100%;
+  background-color:blue;
+}
 
 
 
