@@ -63,33 +63,29 @@ button:hover, a:hover {
 
 <h2>Click for more information on Hope</h2>
 
-<button>Favorite Places</button>
-<a href="#" class="button">Favorite Foods</a>
-<button class="button">Favorite Activities</button>
+<!--<button>Favorite Places</button>-->
+<!--<a href="#" class="button">Favorite Foods</a>-->
+<!--<button class="button">Favorite Activities</button>-->
 <input type="button" class="button" value="Follow Hope on Social Media">
 
 
 
-<style>
-li {
-    display: inline;
-}
-</style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
     $("#hide").click(function(){
-        $("p").hide();
+        $("#places").hide();
     });
     $("#show").click(function(){
-        $("p").show();
+        $("#places").show();
     });
 });
 </script>
 
 
-<p>Hope's favorite places are New York, Florida, and New Jersey.</p>
+
+<p id= "places"> Hope's favorite places are New York, Florida, and New Jersey.</p>
 
 <button id="hide">Hide Hope's Favorite Places</button>
 <button id="show"> Show Hope's Favorite Places</button>
@@ -97,21 +93,38 @@ $(document).ready(function(){
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("#hide").click(function(){
-        $("p").hide();
+    $("#hide2").click(function(){
+        $("#food").hide();
     });
-    $("#show").click(function(){
-        $("p").show();
+    $("#show2").click(function(){
+        $("#food").show();
     });
 });
 </script>
 
 
-<p>Hope's favorite foods are Sushi, French Fries, and Popcorn. </p>
+<p id= "food">Hope's favorite foods are Sushi, French Fries, and Popcorn. </p>
 
-<button id="hide">Hide Hope's Favorite Foods</button>
-<button id="show">Show Hope's Favorite Foods</button>
+<button id="hide2">Hide Hope's Favorite Foods</button>
+<button id="show2">Show Hope's Favorite Foods</button>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide3").click(function(){
+        $("#activity").hide();
+    });
+    $("#show3").click(function(){
+        $("#activity").show();
+    });
+});
+</script>
+
+
+<p id= "activity">Hope's favorite activities are watching TV, sewing/knitting, and baking. </p>
+<button id="hide3">Hide Hope's Favorite Activities</button>
+<button id="show3">Show Hope's Favorite Activities</button>
 
 <!--<p>Click for more information on Hope:</p>-->
 
